@@ -8,13 +8,12 @@ This organisation holds the code behind that work.
 
 ### Current work
 
-**SRITNE Agent Platform** — shared infrastructure for the LLM applications we
-run: a sensitivity gateway that classifies and redacts requests before they
-leave our control, model routing, knowledge retrieval, and a feedback store we
-own. New agents build on it rather than reimplement it.
-
-**Growth Intelligence Platform** — the first application on that platform.
-Growth Audit, GTM Canvas, benchmarks and diagnostic tools.
+**SRITNE Agentic Platform**: shared infrastructure for the AI agents we
+run. Open-source models hosted on our own servers, a privacy gateway that
+redacts requests before any model sees them, project knowledge and memory,
+cost and performance tracking, and an evals framework so only tested agents
+go live. New agents (Survey Builder, Interview Copilot, GTM Canvas, Growth
+Audit) build on it rather than reimplement it.
 
 Research tooling (survey builders, interview and enumerator assistants) and
 data assets from our field work follow the same pattern.
